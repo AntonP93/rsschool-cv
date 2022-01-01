@@ -111,3 +111,14 @@ footer {
     width: 150px;
     height: 50px;
 }
+@media (max-width: 768px) {
+    section {
+      width: 100%;
+    }
+    .section-experience{
+        border-bottom:2px solid rgb(105, 184, 236) ; 
+    }
+    .nav-link {
+        font-size: 15px;
+    }
+  }
