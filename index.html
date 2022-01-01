@@ -4,11 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>My_CV</title>
+    <title>CV</title>
 </head>
 <body>
-    
-    <img src="img/images.jpeg" alt="foto12">
+    <div class="header">
+        <div class="container">
+            <div class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about_me" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code_example" class="nav-link">Code example</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+       <div class="container">
+            <div class="container_main-container">
+                <section class="section-profile">
+                    <div class="img-profile"><img src="img/images.jpeg" alt="image_profile"> </div>
+                    <div class="section-profile-title"><h1>Plastun Anton</h1>
+                    </div>
+                </section>
+                <section class="section-contacts" id="contacts" >
+                    <h2>Contacts</h2>
+                    <ul class="contact_items">
+                        <li class="contact_item">Location: Minsk, Belarus</li>
+                        <li class="contact_item">Discord:<a href="https://discord.com/">AntonPL#8968</a></li>
+                        <li class="contact_item">E-mail: <a href="https://mail.google.com/mail/u/0/#inbox">p.anton070793@gmail.com</a></li>
+                        <li class="contact_item">Github: <a href="https://github.com/AntonP93">AntonP93</a></li>
+                    </ul>
+                    </section>
+                <section class="section-about_me" id="about_me" >
+                    <h2>About Me</h2>
+                    <p>I want to learn something new. I want to try myself in development. I have a higher technical education. I work at the Minsk Tractor Works. I want to change my profession for a number of reasons.</p>
+                </section>
+                <section class="section-skills" id="skills">
+                    <h2>Skills</h2>
+                    <ul class="skills_items">
+                        <li class="skills_item">HTML</li>
+                        <li class="skills_item">CSS (Bootstrap,SCSS, BEM methodology)</li>
+                        <li class="skills_item">Git</li>
+                        <li class="skills_item">VSCode</li>
+                    </ul>
+                </section>
+                <section class="section-code_example" id="code_example">
+                    <h2>Code example</h2>
+                    <pre class="code"><code>function multiply(a, b){
+                        return a * b;
+                        }</code></pre>
+                </section>
+                <section class="section-experience" id="experience">
+                    <h2>Experience</h2>
+                    <a href="https://antonp93.github.io/">First project "Uber"</a></section>
+                <section class="section-language" id="language">
+                    <h2>Language</h2>
+                    <p>English  - A1</p></section>
+            </div>
+       </div>  
+    </div>
 </body>
 </html>
